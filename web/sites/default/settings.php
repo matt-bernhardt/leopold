@@ -42,3 +42,7 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = $_SERVER['SYNC_DIR'];
+
+$settings['trusted_host_patterns'] = [
+  '^helloworld-env\.srhnfpwxpa\.us-east-1\.elasticbeanstalk\.com$',
+];
