@@ -45,4 +45,5 @@ $config_directories['sync'] = $_SERVER['SYNC_DIR'];
 
 $settings['trusted_host_patterns'] = [
   '^helloworld-env\.srhnfpwxpa\.us-east-1\.elasticbeanstalk\.com$',
+  '^leopold\.local$'
 ];
