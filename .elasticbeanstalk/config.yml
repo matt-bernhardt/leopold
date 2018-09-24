@@ -1,17 +1,15 @@
 branch-defaults:
-  master:
-    environment: Helloworld-env
-  refactor-for-composer:
-    environment: Helloworld-env
+  UpdatedBeanstalk:
+    environment: mitlib-staging-proginfoscience
 environment-defaults:
-  Helloworld-env:
+  mitlib-staging-proginfoscience:
     branch: null
     repository: null
 global:
-  application_name: HelloWorld
+  application_name: mitlib-global-proginfoscience
   default_ec2_keyname: mit-dornera
-  default_platform: arn:aws:elasticbeanstalk:us-east-1::platform/PHP 7.1 running on
-    64bit Amazon Linux/2.7.1
+  default_platform: arn:aws:elasticbeanstalk:us-east-1::platform/PHP 7.2 running on
+    64bit Amazon Linux/2.8.1
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
